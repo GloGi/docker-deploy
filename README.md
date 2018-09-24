@@ -15,13 +15,11 @@ sites:
   project_name: # First parameter for the command
     environment: # Second parameter ie. dev/stage/production
       ssh_config: "" # SSH alias or connection string.
-      docker_location: "" # Docker compose file location on server.
-      compose_file: "" # Docker-compose file name.
+      compose_file: "" # Docker-compose file absolute path.
       docker_env: "" # Docker environment name.
     environment_1: # Second parameter
       ssh_config: "" # SSH alias or connection string.
-      docker_location: "" # Docker compose file location on server.
-      compose_file: "" # Docker-compose file name.
+      compose_file: "" # Docker-compose file absolute path.
       docker_env: "" # Docker environment name.
 ```
 
