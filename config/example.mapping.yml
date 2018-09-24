@@ -12,7 +12,7 @@ sites:
       app_name: "" # Main application name. Only used when running force restart for service.
   project_name_2:
     stage:
-      ssh_config: ""
-      compose_file: ""
-      docker_env: ""
+      ssh_config: "" # SSH alias or connection string.
+      compose_file: "" # Docker-compose file name.
+      service_group: "" # Docker environment name.
       app_name: "" # Main application name. Only used when running force restart for service.
